@@ -1,0 +1,32 @@
+{
+  "name": "innohub",
+  "version": "1.0.0",
+  "description": "InnoHub - Digital Marketing Agency Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/index.html",
+    "start": "live-server --port=3000 --open=/index.html",
+    "build": "echo 'No build process needed for static site'",
+    "serve": "live-server --port=8080 --open=/index.html",
+    "vercel-build": "echo 'Static site - no build needed'"
+  },
+  "keywords": [
+    "marketing",
+    "digital",
+    "agency",
+    "website",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "InnoHub",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codewithsadee/innohub.git"
+  },
+  "homepage": "https://codewithsadee.github.io/innohub/"
+}
